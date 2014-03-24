@@ -95,7 +95,7 @@ class Config
 	 * @var array
 	 */
 	private static $possibleOptionsValues = array(
-		'groups' => array('auto', 'namespaces', 'packages', 'none'),
+		'groups' => array('auto', 'all', 'namespaces', 'packages', 'none'),
 		'autocomplete' => array('classes', 'constants', 'functions', 'methods', 'properties', 'classconstants'),
 		'accessLevels' => array('public', 'protected', 'private')
 	);
